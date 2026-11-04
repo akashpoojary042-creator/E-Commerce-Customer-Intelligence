@@ -70,7 +70,7 @@ The dataset includes customer and purchase-related fields such as:
 
 `Customer ID`, `Purchase Date`, `Product Category`, `Product Price`, `Quantity`, `Total Purchase Amount`, `Payment Method`, `Customer Age`, `Returns`, `Gender`, and `Churn`.
 
-The raw dataset is excluded from this repository due to its size. The processed data files are available in the `Data/Processed` folder.
+The raw dataset is excluded from this repository due to its size. The processed data files are available in the `Data` folder.
 
 ## Key Analysis
 
@@ -93,11 +93,10 @@ E-Commerce-Customer-Intelligence/
 │   └── dashboard.png
 │
 ├── Data/
-│   └── Processed/
-│       ├── cleaned_customer_data.csv
-│       ├── customer_segmentation.csv
-│       └── churn_analysis.csv
-│
+│    ├── cleaned_customer_data.csv
+│    ├── customer_segmentation.csv
+│    └── churn_analysis.csv
+│       
 ├── notebooks/
 │   └── Data_Inspection.ipynb
 │
